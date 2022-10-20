@@ -1,0 +1,7 @@
+*.o
+libmultigrid.c
+libmultigrid.h
+
+futtop
+
+designstep_*
