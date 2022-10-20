@@ -8,7 +8,7 @@ MC_LIBS   = -std=c99 -lm -lpthread
 OCL_LIBS  = -lm -lOpenCL
 CUDA_LIBS = -lm -lcuda -lcudart -lnvrtc
 
-all: futtop_c
+all: futtop
 
 futtop: futtop.c libmultigrid.o io.o
 	$(CC) $(CFLAGS) -o $@ $^ $(MC_LIBS)
