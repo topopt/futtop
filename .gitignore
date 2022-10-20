@@ -5,3 +5,4 @@ libmultigrid.h
 futtop
 
 designstep_*
+src/data/
