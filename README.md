@@ -25,7 +25,7 @@ libmultigrid.c: libmultigrid.fut src/*.fut
 ```
 
 ## Running the Code
-To run 20 iterations of the code on a grid of 128 times 64 times 64 voxels use the following commands:
+The default design problem is a 2x1x1 cantilever problem. To run 20 iterations of the code on a grid of 128 times 64 times 64 voxels use the following commands:
 ```bash
 $ ./top3d -x 16 -y 8 -z 8
 ```
