@@ -14,7 +14,7 @@ futtop: futtop.c libmultigrid.o io.o
 libmultigrid.c: libmultigrid.fut src/*.fut
 	$(FUTC) multicore --library $<
 ```
-
+   
 to
 ```bash
 futtop: futtop.c libmultigrid.o io.o
