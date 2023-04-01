@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7791818.svg)](https://doi.org/10.5281/zenodo.7791818)
 # Futtop
 This repository contains an implementation of a topology  optimisation solver for linear  elastic compliance minimisation in three dimensions. The implementation is based on the Futhark language.
 
